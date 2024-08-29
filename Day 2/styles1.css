@@ -1,0 +1,64 @@
+body {
+    font-family:'Georgia';
+    margin: 0;
+    padding: 0;
+    background-color: #7da45c;
+}
+
+header {
+    background-color: #056442;
+
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 1em;
+}
+
+.menu-section {
+    margin-bottom: 1.5em;
+    border: 1px solid #719632;
+    color: #056442;
+    background-color:#e4dc6c;
+    padding: 1em;
+}
+
+.menu-section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #eee;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Garamond', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: #333;
+    
+}
+header{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1);
+}
+
+h1 .underline{
+    text-decoration: dashed;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+h2 .underline{
+    text-decoration: dashed;
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+footer{
+    text-align: center;
+    padding: 0.5em;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-size: 0.9em;
+    position: fixed;
+    width: 0%;
+    bottom: 0;
+}
+
+@media (max-width: 300px) {
+    .container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    
