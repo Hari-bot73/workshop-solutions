@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="FAQ1.css">
+</head>
+<body>
+    <div class="faq-container">
+        <h1 align="center"class-="header">FAQ</h1>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(0)">
+                <span>What is your return policy?</span>
+                <span class="arrow">&#9660;</span>
+            </div>
+            <div class="answer">
+                <p>You can return any item within 30 days of purchase.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(1)">
+                <span>How do I contact customer support?</span>
+                <span class="arrow">&#9660;</span>
+            </div>
+            <div class="answer">
+                <p>Contact us via email at support@example.com.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(2)">
+                <span>Do you offer international shipping?</span>
+                <span class="arrow">&#9660;</span>
+            </div>
+            <div class="answer">
+                <p>Yes, we offer shipping to most countries worldwide.</p>
+            </div>
+        </div>
+    </div>
+    <script src="FAQ.js"></script>
+</body>
+</html>
