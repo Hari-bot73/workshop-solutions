@@ -1,0 +1,7 @@
+.parallax {
+    background-image: url("Ecom image1.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
